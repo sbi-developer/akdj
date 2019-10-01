@@ -25,7 +25,7 @@ SECRET_KEY = 'h!prf#k&jja!#*m+1a$ejg51%g9@neg=ke1^-wyuddepgpk3%j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*','www.gugu.ai','gugu.ai','ec2-18-215-23-218.compute-1.amazonaws.com','18.215.23.218']
 
 
 # Application definition
