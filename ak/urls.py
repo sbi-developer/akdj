@@ -22,6 +22,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     #url(r'^', include('landing.urls')),
 
-    path('', views.home, name='home'),
+    path('', views.business, name='home'),
     path('for-business', views.business, name='for-business'),
 ]
