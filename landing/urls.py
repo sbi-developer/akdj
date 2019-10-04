@@ -4,6 +4,6 @@ from .views import home, business
 
 app_name = "landing"
 urlpatterns = [
-    url(r'^', home, name='home'),
+    url(r'^', business, name='home'),
     url(r'^for-business', business, name='for-business'),
 ]
